@@ -1,0 +1,38 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs and debug files
+*.log
+
+# Jupyter notebooks checkpoints (if used)
+.ipynb_checkpoints/
+
+# Media files (optional: if you test saving frames)
+*.png
+*.jpg
+*.jpeg
+
+# Dependencies
+*.egg-info/
+dist/
+build/
+
+# Ignore TensorFlow/MediaPipe model cache
+mediapipe_modules/
